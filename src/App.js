@@ -6,6 +6,7 @@ import { EventHandler } from './components/EventHandler';
 import { GreetParent } from './components/GreetParent';
 import { UserGreeting } from './components/UserGreeting';
 import { ListName } from './components/ListName';
+import { StyleMe } from './components/StyleMe';
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                     <UserGreeting isLoggedIn={false}></UserGreeting>
                     <UserGreeting isLoggedIn={true}></UserGreeting>
                     <ListName />
+                    <StyleMe></StyleMe>
                 </p>
                 <a
                     className="App-link"
