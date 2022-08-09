@@ -4,6 +4,7 @@ import { Greet } from './components/Greet';
 import { Message } from './components/Message';
 import { EventHandler } from './components/EventHandler';
 import { GreetParent } from './components/GreetParent';
+import { UserGreeting } from './components/UserGreeting';
 
 function App() {
     return (
@@ -23,6 +24,8 @@ function App() {
                             alert('Hi from Parent, ' + message)
                         }
                     />
+                    <UserGreeting isLoggedIn={false}></UserGreeting>
+                    <UserGreeting isLoggedIn={true}></UserGreeting>
                 </p>
                 <a
                     className="App-link"
