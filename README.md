@@ -1,6 +1,34 @@
 # Getting Started with Create React App
 
+- This app created via [my-create-react-app](https://github.com/kasir-barati/the-pragmatic-programmer/blob/main/customize-your-dev-env/my-create-react-app.md)
 - `class` attribute in jsx is `className`
+- `prop` VS `state`
+<table>
+  <thead>
+    <tr>
+      <td>Prop</td>
+      <td>State</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Passed to component</td>
+      <td>Managed in component</td>
+    </tr>
+    <tr>
+      <td>Function parameter</td>
+      <td>Variables declared in the function body</td>
+    </tr>
+    <tr>
+      <td>Immutable</td>
+      <td>Changeable</td>
+    </tr>
+    <tr>
+      <td>`prop`</td>
+      <td>`useState`</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Available Scripts
 
