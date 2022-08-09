@@ -5,7 +5,7 @@ export function ListName() {
     return (
         <Fragment>
             {names.map((name) => (
-                <h1>{name}</h1>
+                <h1 key={name}>{name}</h1>
             ))}
         </Fragment>
     );
