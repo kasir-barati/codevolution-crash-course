@@ -30,6 +30,10 @@
   </tbody>
 </table>
 
+- Hooks
+  - Special function that let me to hook react features
+  - e.x. `useState`, `useTransition`
+
 ## Available Scripts
 
 In the project directory, you can run:
