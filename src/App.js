@@ -5,6 +5,7 @@ import { Message } from './components/Message';
 import { EventHandler } from './components/EventHandler';
 import { GreetParent } from './components/GreetParent';
 import { UserGreeting } from './components/UserGreeting';
+import { ListName } from './components/ListName';
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                     />
                     <UserGreeting isLoggedIn={false}></UserGreeting>
                     <UserGreeting isLoggedIn={true}></UserGreeting>
+                    <ListName />
                 </p>
                 <a
                     className="App-link"
