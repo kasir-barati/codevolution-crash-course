@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Greet } from './components/Greet';
 import { Message } from './components/Message';
+import { EventHandler } from './components/EventHandler';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Greet name="Bob" />
                     <Greet name="Turbo" />
                     <Message></Message>
+                    <EventHandler />
                 </p>
                 <a
                     className="App-link"
