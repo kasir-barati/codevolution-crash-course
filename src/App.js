@@ -3,6 +3,7 @@ import './App.css';
 import { Greet } from './components/Greet';
 import { Message } from './components/Message';
 import { EventHandler } from './components/EventHandler';
+import { GreetParent } from './components/GreetParent';
 
 function App() {
     return (
@@ -17,6 +18,11 @@ function App() {
                     <Greet name="Turbo" />
                     <Message></Message>
                     <EventHandler />
+                    <GreetParent
+                        greet={(message) =>
+                            alert('Hi from Parent, ' + message)
+                        }
+                    />
                 </p>
                 <a
                     className="App-link"
